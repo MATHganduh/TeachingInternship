@@ -1,0 +1,180 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+
+h3 {
+    font: arial;
+    font-size: 40px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+}
+h4{
+    font: arial;
+    font-size: 30px;
+    font-weight: 100;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 40px;
+}
+h5{
+    font: arial;
+    font-size: 25px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;   
+}
+
+
+h6{
+    font: arial;
+    font-size: 30px;
+    font-weight: 900;
+    text-align: center;
+    text-decoration: none;
+}
+
+h7{
+    font: arial;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: left;
+    text-decoration: none;
+    margin-left: 40px;
+}
+
+ul {
+    list-style: none;
+}
+
+.active {
+    color: #057c23;
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+.navbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: azure;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+}
+
+header {
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(picture.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header-content {
+    margin-bottom: 150px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.header-content h2 {
+    font-size: 6vmin;
+}
+
+.line {
+    width: 200px;
+    height: 4px;
+    background: #057c23;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.header-content h1 {
+    font-size: 7vmin;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.ctn {
+    padding: 8px 15px;
+    background-color: #057c23;
+    border-radius: 30px;
+    color: azure;
+}
+
+@media only screen and (max-width:850px){
+    .navbar {
+        padding: 0;
+    }
+    .logo {
+        position: absolute;
+        top: 50px;
+        left: 50px;
+    }
+    
+}
+
+section {
+    width: 80%;
+    margin: 80px auto;
+}
+
+.title {
+    text-align: center;
+    font-size: 4vmin;
+    color: #21442a;
+}
+
+p {
+    color: black;
+    padding: 0 40px;
+    font-size: 4vmin;
+    text-align: justify;
+    text-indent: 50px;
+    line-height: 40px;
+}
+
+nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: azure;
+}
+
+nav a{
+    float: left;
+    display: block;
+    color: azure;
+    text-align: center;
+    padding: 0px;
+    text-decoration: none;
+
+}
+
+.nav a :hover{
+    background-color: antiquewhite;
+    color: aqua;
+}
